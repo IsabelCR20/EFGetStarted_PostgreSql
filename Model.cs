@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace EFGetStarted
+namespace EFGetStarted_PostgreSql
 {
     public class BloggingContext : DbContext
     {
