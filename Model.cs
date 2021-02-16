@@ -9,7 +9,7 @@ namespace EFGetStarted
         public DbSet<Post> Posts { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseNpgsql("Host=my_host;Database=my_db;Username=my_user;Password=my_pw");
+            => optionsBuilder.UseNpgsql("Host=localhost;port=5432;Username=postgres;Password=root");
     }
 
     public class Blog
